@@ -13,10 +13,8 @@ jobs:
 
       - name: Grant execute permission for script
         run: |
-          chmod +x ~/Desktop/Runner/script.sh
           chmod +x ~/Desktop/Runner/runJava.sh
 
       - name: Run script from Desktop
         run: |
-          ~/Desktop/Runner/script.sh
           ~/Desktop/Runner/runJava.sh
